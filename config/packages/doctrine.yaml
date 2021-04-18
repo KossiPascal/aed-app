@@ -3,6 +3,7 @@ doctrine:
         override_url: true
         url: '%env(resolve:DATABASE_URL)%'
         driver: pdo_pgsql
+        #driver: pdo_mysql
         charset: utf8
 
         # IMPORTANT: You MUST configure your server version,
